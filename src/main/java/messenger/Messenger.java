@@ -15,7 +15,7 @@ public class Messenger {
 
 	///*Tymczasowo -> Pozniej to zniknie */
 	//public Messenger() {
-	//	// TODO Auto-generated constructor stub
+	// TODO Auto-generated constructor stub
 	//}
 
 	//Testowanie polaczenia z serwerem
