@@ -16,9 +16,6 @@ public class MessegeServiceMyMock implements MessageService{
     @Override
     public SendingStatus send(String server, String message)
             throws MalformedRecipientException {
-     /*   if(server.length() < 7 || server.length() > 20){
-            throw new MalformedRecipientException();
-        }*/
         if(message.length() < 4 || message.length() > 300){
             throw new MalformedRecipientException();
         }

@@ -47,7 +47,7 @@ public class EasyMockTest {
 
     @Before
     public void setUp() throws Exception {
-        mockService = /*EasyMock.*/createMock(MessageService.class);
+        mockService = createMock(MessageService.class);
         messenger = new Messenger(mockService);
     }
 
@@ -83,7 +83,6 @@ public class EasyMockTest {
         expect(mockService.checkConnection(null)).andReturn(ConnectionStatus.FAILURE);
         replay(mockService);
         int result = messenger.testConnection(null);
-      //  assertThat(result).isSameAs(1);
         assertThat(result).isOne();
         verify(mockService);
     }

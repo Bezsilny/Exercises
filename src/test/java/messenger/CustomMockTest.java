@@ -29,7 +29,7 @@ public class CustomMockTest {
 
 
     @Before
-    public void setUp() /*throws Exception*/{
+    public void setUp() {
         myMock = new MessegeServiceMyMock();
         messenger = new Messenger(myMock);
     }
@@ -82,15 +82,6 @@ public class CustomMockTest {
         myMock.SendMessage(true);
         assertThat(messenger.sendMessage(INVALID_SERVER, INVALID_MESSAGE), is(2));
     }
-
-   /* @Test(expected = MalformedRecipientException.class)
-    public void InvalidData3()  {
-        myMock.SendMessage(true);
-      //  assertThatThrownBy(MalformedRecipientExceptio);
-        assertEquals(SendingStatus.SENDING_ERROR, myMock.send(VALID_SERVER, VALID_MESSAGE));
-    //    assertThat(messenger.sendMessage(INVALID_SERVER, INVALID_MESSAGE), is(2));
-    }
-*/
     @Test
     public void SendingErrorTest() throws MalformedRecipientException {
         myMock.SendMessage(false);

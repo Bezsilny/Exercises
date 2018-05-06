@@ -3,8 +3,6 @@ package messenger;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
-//import messenger.ConnectionStatus;
-//import messenger.MessageService;
 
 
 import static org.mockito.Mockito.*;
