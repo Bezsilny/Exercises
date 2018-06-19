@@ -1,4 +1,5 @@
-# Exercises
+# Testowanie aplikacji JAVA 2017-2018
+## (Maven, JUnit oraz atrapy) 
 
 - Better Code Hub
 [![BCH compliance](https://bettercodehub.com/edge/badge/Bezsilny/Exercises?branch=master)](https://bettercodehub.com/)
@@ -8,10 +9,6 @@
 
 - Travis CI
 ![Build Status](https://travis-ci.com/TestowanieJAVA2017-2018Gr3/projekt2-Bezsilny.svg?token=EWL9yKKuPFQvx3ZsNxUa&branch=master)
-
-
-# Testowanie aplikacji JAVA 2017-2018
-## (Maven, JUnit oraz atrapy) 
 
 
 -----------------
